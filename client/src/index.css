@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom, #ffffff, #e3eff3, #e3eff3);
+}
+
+.gradient-bg {
+  background: linear-gradient(to bottom, #a97d8d, #f3d9d8);
+}
+
+.opacity-div {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.nav-transition {
+  height: 6rem;
+  transition: height 0.5s ease;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
